@@ -1,0 +1,13 @@
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+
+
+@layer components {
+  line {
+    @apply bg-orange01 h-1 w-16 rounded-md block mx-auto mt-4 mb-6;
+  }
+}
